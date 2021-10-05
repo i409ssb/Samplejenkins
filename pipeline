@@ -7,6 +7,7 @@ pipeline {
 		}
 		stage('Test') {
 			echo "Testing the Project……."
+			cal
 		}
 		stage('Deploy') {
 			echo "Deploying the Project……."
