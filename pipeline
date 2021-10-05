@@ -3,6 +3,7 @@ pipeline {
 	stages {
 		stage('Build') {
 			echo "Building the Project……."
+			cal
 		}
 		stage('Test') {
 			echo "Testing the Project……."
