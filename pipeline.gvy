@@ -3,7 +3,6 @@ pipeline {
 	stages {
 		stage('Build') {
 			echo "Building the Project……."
-			cal
 			date
 		}
 		stage('Test') {
